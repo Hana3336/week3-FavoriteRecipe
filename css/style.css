@@ -14,8 +14,8 @@ body {
 }
 
 #brown {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border: 1px solid rgb(188, 239, 101);
     border-radius: 20%;
     
@@ -23,7 +23,7 @@ body {
     position: relative;
     top: -600px;
     animation: brown 3s ease-in-out forwards;
-    
+    animation-iteration-count: infinite;
 }
 
 @keyframes brown {
