@@ -13,14 +13,20 @@ body {
     color: darkslateblue;
 }
 
-.image {
+#brown {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(188, 239, 101);
+    border-radius: 20%;
+    
+    background-color: rgb(166, 124, 87);
     position: relative;
     top: -600px;
-    animation: image 3s ease-in-out forwards;
+    animation: brown 3s ease-in-out forwards;
     
 }
 
-@keyframes image {
+@keyframes brown {
     100% {top: 0;}
 }
 
